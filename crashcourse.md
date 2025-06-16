@@ -22,6 +22,7 @@
 Spring Boot is an opinionated framework that simplifies Spring application development by providing auto-configuration, embedded servers, and production-ready features.
 
 ### Key Concepts
+
 - **Auto-Configuration**: Automatically configures beans based on classpath dependencies
 - **Starter Dependencies**: Pre-configured dependency bundles
 - **Embedded Servers**: Tomcat, Jetty, or Undertow included
