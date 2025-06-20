@@ -38,6 +38,7 @@
   - Leaderboards and ranking systems
   - Range queries and scoring
   
+  
 
 ### 3. Java Integration with Jedis
 - **Jedis Setup**
