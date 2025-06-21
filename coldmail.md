@@ -1,3 +1,5 @@
+Cold Mail on Linkedin
+
 Subject - You Might be the reason I landed in Amazon 
 
 
@@ -13,4 +15,7 @@ Would love to hear your thoughts whenever you get a moment — your advice would
 
 Best regards,
 Suraj Singh
+
+
+
 
