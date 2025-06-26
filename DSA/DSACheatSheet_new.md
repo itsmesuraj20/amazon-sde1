@@ -1,4 +1,4 @@
- # DSA Pattern Recognition Cheat Sheet
+# DSA Pattern Recognition Cheat Sheet
 
 ## Array Patterns
 
