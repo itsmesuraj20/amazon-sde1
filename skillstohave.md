@@ -1,4 +1,11 @@
 Java
 Spring Boot
 Redis
-Kadka
+Kafka
+GRPC
+AWS
+Docker 
+Kubernetes
+React JS
+Next JS 
+TypeScript
