@@ -166,6 +166,7 @@
   - Parallel processing strategies
   - Memory management
 
+
 ### 14. Kafka Connect
 - **Connect Framework**
   - Source and sink connectors
