@@ -161,6 +161,7 @@
   - Batch size and linger time tuning
   - Compression algorithms
   - Memory and network optimization
+  
 - **Consumer Optimization**
   - Fetch size and session timeout tuning
   - Parallel processing strategies
