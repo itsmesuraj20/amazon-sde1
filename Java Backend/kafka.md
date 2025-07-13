@@ -108,6 +108,7 @@
   - Mocking producers and consumers
 
 ### 9. Kafka Streams (Basics)
+
 - **Stream Processing Concepts**
   - Stateless vs stateful operations
   - Stream-table duality
