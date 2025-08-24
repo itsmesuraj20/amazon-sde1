@@ -1,0 +1,118 @@
+/*
+FRAMEWORK TO IDENTIFY MULTIPLE APPROACHES
+=========================================
+
+Step 1: PROBLEM CATEGORIZATION
+------------------------------
+Ask yourself: "What type of problem is this?"
+
+HIGH probability of Brute→Better→Optimal:
+✅ Array searching/finding
+✅ String matching/manipulation  
+✅ Counting/frequency problems
+✅ Mathematical computations
+✅ Two pointers candidates
+✅ Sliding window candidates
+
+MEDIUM probability:
+⚠️  Tree traversal (might have iterative vs recursive)
+⚠️  Graph problems (might have different algorithms)
+⚠️  Backtracking (usually one main approach)
+
+LOW probability:
+❌ Pure implementation problems
+❌ Design questions
+❌ Specific algorithm implementations
+
+Step 2: CONSTRAINT ANALYSIS
+---------------------------
+n ≤ 100     → Brute O(n³) possible
+n ≤ 1000    → Brute O(n²) possible  
+n ≤ 10⁵     → Need O(n log n) or better
+n ≤ 10⁶     → Need O(n) or O(n log n)
+n ≤ 10⁸     → Need O(log n) or O(1)
+
+If constraints allow multiple complexities → Multiple approaches likely!
+
+Step 3: DATA STRUCTURE SIGNALS
+-------------------------------
+Can you solve with:
+- Nested loops? → Brute force exists
+- Hash map/set? → Better approach likely
+- Two pointers? → Optimal might exist
+- Sorting first? → Different approach possible
+- Mathematical formula? → Optimal exists
+
+Step 4: QUICK MENTAL CHECK
+---------------------------
+Ask these questions:
+
+1. "Can I solve this with nested loops?" 
+   YES → Brute force exists
+
+2. "Would a hash map help optimize lookups?"
+   YES → Better approach likely exists
+
+3. "Can I use two pointers or sliding window?"
+   YES → Optimal approach might exist
+
+4. "Is there a mathematical pattern/formula?"
+   YES → Direct optimal solution possible
+
+5. "Can sorting help reduce complexity?"
+   YES → Different complexity approaches exist
+
+EXAMPLE ANALYSIS:
+================
+
+PROBLEM: "Find two numbers that add up to target"
+
+Step 1: Array searching problem ✅ (High probability)
+Step 2: n ≤ 10⁵ allows O(n²) and O(n) ✅ 
+Step 3: 
+  - Nested loops? YES → Brute O(n²)
+  - Hash map? YES → Better O(n)  
+  - Two pointers? YES → Optimal O(n)
+Step 4: Multiple data structures applicable ✅
+
+CONCLUSION: Definitely has Brute→Better→Optimal!
+
+PROBLEM: "Implement DFS traversal"
+
+Step 1: Pure implementation ❌ (Low probability)
+Step 2: Not complexity-focused
+Step 3: Specific algorithm requested
+Step 4: One main approach (recursive/iterative variants)
+
+CONCLUSION: Limited approaches, focus on clean implementation
+
+INTERVIEW STRATEGY:
+==================
+
+WHEN YOU SUSPECT MULTIPLE APPROACHES:
+1. Always start with brute force
+2. Optimize step by step
+3. Explain trade-offs at each level
+
+WHEN YOU SUSPECT LIMITED APPROACHES:
+1. Ask clarifying questions
+2. Focus on edge cases and clean code
+3. Discuss alternative implementations if any
+
+QUICK DECISION TREE:
+===================
+
+Is it an array/string search problem? 
+├─ YES → Likely has multiple approaches
+└─ NO → Check if it's mathematical/counting
+   ├─ YES → Might have formula-based optimal
+   └─ NO → Probably limited approaches
+
+Are constraints allowing multiple complexities?
+├─ YES → Multiple approaches likely
+└─ NO → Focus on the required complexity
+
+Can you think of 2+ data structures to solve it?
+├─ YES → Multiple approaches exist
+└─ NO → Probably one main approach
+*/
